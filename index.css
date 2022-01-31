@@ -1,0 +1,23 @@
+.todo-item {
+  display: flex;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.todo-item p {
+  margin: 0;
+  flex: 1;
+}
+
+.todo-item .done {
+  background-color: lightblue;
+  margin-right: 16px;
+}
+
+.todo-item .remove {
+  background-color: coral;
+}
+
+.checked p {
+  text-decoration: line-through;
+}
